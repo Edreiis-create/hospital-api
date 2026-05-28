@@ -1,14 +1,20 @@
-# Sistema Hospitalar API
+# Hospital API
 
-API REST desenvolvida com Spring Boot para gerenciar pacientes e consultas.
-
-## Endpoints
-- POST /hospital/cadastrar → cadastra paciente
-- POST /hospital/agendar → agenda consulta
-- POST /hospital/realizar → realiza consulta
-- DELETE /hospital/cancelar → cancela consulta
+API backend desenvolvida com Java e Spring Boot para gerenciamento de pacientes e consultas.
 
 ## Tecnologias
 - Java
 - Spring Boot
-- Lombok
+- SQL
+- Maven
+
+## Funcionalidades
+- Cadastro de pacientes
+- Listagem de pacientes
+- Atualização de dados
+- Remoção de registros
+
+## Aprendizados
+- Estrutura MVC
+- Criação de endpoints REST
+- Integração com banco de dados
